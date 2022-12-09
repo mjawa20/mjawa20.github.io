@@ -99,7 +99,7 @@ let database = [{
         bahasa: "indonesia",
         sinopsis: "Alana tidak mengerti mengapa dia selalu dikuasai oleh kemarahan. Tapi dia selalu berusaha untuk melawannya. Dia lahir saat letusan gunung berapi yang memisahkan dia dan orang tuanya.",
         //  Dia kemudian diadopsi oleh seorang wanita kaya yang berusaha membantunya menjalani kehidupan normal.Tapi saat dewasa, Alana menemukan kebenaran tentang asalnya.Dia bukan manusia biasa.Dia bisa menjadi kebaikan untuk kehidupan.Atau menjadi kehancuran bila ia tidak dapat mengendalikan amarahnya."
-        image: "asset/Sri Asih.jpg",
+        image: "asset/sri asih.jpg",
     },
     {
         id: 12,
