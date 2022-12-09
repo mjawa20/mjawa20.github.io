@@ -153,7 +153,7 @@ function render() {
             <h1 class="my-5" style="width:25%">${film}</h1>
             <h1 class="my-5" style="width:20%">${cartData[i].jumlah}</h1>
             <h1 class="my-5" style="width:15%">${cartData[i].jam}</h1>
-            <button id="delete${i}" class="btn btn-sm btn-secondary py-3">
+            <button onclick="deleteData(${i})" class="btn btn-sm btn-secondary py-3">
             DELETE
             </button>
             </li>
