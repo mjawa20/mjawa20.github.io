@@ -159,9 +159,6 @@ function render() {
             </li>
         `
 
-        document
-            .getElementById(`delete${i}`)
-            .addEventListener("click", () => deleteData(i))
     }
 }
 
