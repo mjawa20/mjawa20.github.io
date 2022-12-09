@@ -157,11 +157,15 @@ function beli() {
 
     if (!nama || !jam || !jumlah) {
         console.log(Number(jumlah))
-        alert("masukkan input yang benar geh")
+        alert("masukkan semua input yang benar geh")
         return
     }
-    if (isNaN(Number(jumlah))) {
-        alert("jumlah harus angka geh")
+    if (!isNaN(Number(nama)) || nama.length <= 3 ) {
+        alert("masukkan nama yang benar geh")
+        return
+    }
+    if (isNaN(Number(jumlah)) || Number(jumlah) < 1) {
+        alert("masukkan input jumlah yang benar geh")
         return
     }
 
